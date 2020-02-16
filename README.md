@@ -33,36 +33,24 @@ Expected Output:
 
 5 1 E
 
-# Thoughts:
+# Input Object One:
 
-So the entities I see are Rovers and a Plane:
-
-The plane is a normal x/y plane with only the initial x/y co-ords where x is the upper bound of the plane in x, and y is the same for y.
-The lower bounds are both 0;
-
-So :
-
-function makePlane(x,y){
-   return {
-       x,
-       y
-   }
-};
-
-The rover:
-
-// where d will track our direction
-function deployRover(x,y,d){
-    x,
-    y,
-    d
+{
+  plane: {
+     x:0,
+     y:0
+  }
+  rovers: [
+	{
+		x:1,
+		y:2,
+		d:"N"
+	    moves: "LMLMLMLMM"
+	},{
+		x:3,
+		y:3,
+		d:"E"
+	    moves: "LMLMLMLMM"
+	}
+  ]
 }
-
-Routes: 
-
-/rovers // post input to here
-       // it gives back the expected output
-       
-So i wanted to make it kind of like a game but I do recognize that going with an API might be out of scope already....
-
-So for the front end we will just have a form for the input and a display area for the output :) 
