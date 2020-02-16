@@ -2,8 +2,6 @@
 
 Get up and running:
 
-I decided to create a fake email and atlas acount so that you can have access to everything and for ease of use
-
 # Notes:
 
 A lot of hints ( I think ) are given :
