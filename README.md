@@ -15,7 +15,7 @@ And off we go :)
 To test run this in the respective folder ( client/server ) :<br/>
 	npm run test
 
-# I have noticed a weirdness around git bash and jest tests when it's a fresh clone, but they work when I use the very same bash terminal integrated into my ide.. Tested in cmd and it works everytime ( if this was to happen)
+I have noticed a weirdness around git bash and jest tests when it's a fresh clone, but they work when I use the very same bash terminal integrated into my ide.. Tested in cmd and it works everytime ( if this was to happen)
 
 
 
