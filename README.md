@@ -2,17 +2,17 @@
 
 Get up and running:
 
-Open up the server file in bash: 
-	npm install
+Open up the server file in bash: <br/>
+	npm install<br/>
 	npm run start
 	
-Open up client:
-	npm install
+Open up client:<br/>
+	npm install<br/>
 	npm run start
 	
 And off we go :)
 
-To test run this in the respective folder ( client/server ) :
+To test run this in the respective folder ( client/server ) :<br/>
 	npm run test
 
 
