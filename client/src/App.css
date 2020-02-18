@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+  background-color: black;
+  min-height: 100%;
+  height: 100%;
+}
+
+.navBar .navbar-brand{
+  border-bottom: solid 1px limegreen;
+  margin-bottom: 5vh;
+  color:limegreen!important;
+}
+
+.formOne{
+  width: 55vw;
+  border-bottom: solid 1px limegreen;
+  border-top: solid 1px limegreen;
+  margin: 2.5vh auto;
+}
+
+.formTwo{
+  width: 55vw;
+  border-bottom: solid 1px limegreen;
+  border-top: solid 1px limegreen;
+  margin: 10vh auto 0vh auto;
+}

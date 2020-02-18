@@ -1,0 +1,153 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Renders Vs Snapshot 1`] = `
+<div
+  className="App"
+>
+  <nav
+    className="navBar navbar navbar-expand navbar-light"
+  >
+    <a
+      className="navbar-brand"
+      href="#home"
+    >
+      Rover
+    </a>
+  </nav>
+  <div
+    className="row"
+  >
+    <div
+      className="col-md-12 col-12"
+    >
+      <h2>
+        Output
+      </h2>
+      <form
+        className="formOne"
+      >
+        <p
+          style={
+            Object {
+              "marginBottom": "0px",
+            }
+          }
+        >
+          No Rovers Deployed
+        </p>
+      </form>
+      <form
+        className="formTwo"
+        onSubmit={[Function]}
+      >
+        <h2
+          style={
+            Object {
+              "marginTop": "2.5vh",
+            }
+          }
+        >
+          Input
+        </h2>
+        <div
+          className="form-group"
+          style={
+            Object {
+              "marginBottom": "1vh",
+            }
+          }
+        >
+          <div
+            className="row"
+          >
+            <div
+              className="col-md-6"
+            >
+              <label
+                className="form-label"
+                htmlFor="exampleForm.ControlInput1"
+              >
+                Plane x:
+              </label>
+              <input
+                className="form-control"
+                id="exampleForm.ControlInput1"
+                onChange={[Function]}
+                placeholder="Eg: 5"
+                type="number"
+              />
+            </div>
+            <div
+              className="col-md-6"
+            >
+              <label
+                className="form-label"
+                htmlFor="exampleForm.ControlInput1"
+              >
+                Plane y:
+              </label>
+              <input
+                className="form-control"
+                id="exampleForm.ControlInput1"
+                onChange={[Function]}
+                placeholder="Eg: 5"
+                type="number"
+              />
+            </div>
+            <div
+              className="col-md-12"
+              style={
+                Object {
+                  "marginTop": "5vh",
+                }
+              }
+            >
+              <label
+                className="form-label"
+                htmlFor="exampleForm.ControlInput1"
+              >
+                Deploy Instructions: (Please split input lines with semi-colons)
+              </label>
+              <textarea
+                className="form-control"
+                id="exampleForm.ControlInput1"
+                onChange={[Function]}
+                rows="3"
+              />
+            </div>
+            <button
+              className="btn btn-primary"
+              disabled={false}
+              style={
+                Object {
+                  "background": "white",
+                  "color": "black",
+                  "margin": "5vh auto",
+                }
+              }
+              type="submit"
+            >
+              Submit
+            </button>
+          </div>
+        </div>
+      </form>
+      <p
+        style={
+          Object {
+            "color": "white",
+          }
+        }
+      >
+        Example
+        <br />
+        1 2 N; LMLM;
+        <br />
+        or
+        <br />
+        1 2 N; LMLMLMLMM; 3 3 E; MMRMMRMRRM;
+      </p>
+    </div>
+  </div>
+</div>
+`;
